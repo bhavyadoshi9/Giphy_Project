@@ -28,10 +28,34 @@
   color: #61dafb;
 }
 
+.gif {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #61dafb; */
+}
+
+/* img {
+  width: 30%;
+  height: 40%;
+} */
+
+.searchboxwrapper {
+  display: flex;
+  justify-content: center;
+  /* background-color: blueviolet;*/
+  width: 100%;
+}
+
+ReactGiphySearchbox {
+  width: 100%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
